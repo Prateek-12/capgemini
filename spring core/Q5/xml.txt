@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<bean id="Customer1" class="Question5.Customer">
+<property name="customerId" value="56"/>
+<property name="customerName" value="parteek"/>
+<property name="customerContact" value="2656654644"/>
+</bean>
+<bean id="Customeradd" class="Question5.Address">
+<property name="street" value="hamali"/>
+<property name="city" value="punjab"/>
+<property name="state" value="punjab"/>
+<property name="zip" value="53554"/>
+<property name="country" value="India"/>
+</bean>
+<bean id="Customeradd1" class="Question5.Address">
+<property name="street" value="--------hamali"/>
+<property name="city" value="punjab"/>
+<property name="state" value="punjab"/>
+<property name="zip" value="5300056"/>
+<property name="country" value="India"/>
+</bean>
+<context:annotation-config/>
+
+</beans>
